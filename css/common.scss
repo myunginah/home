@@ -58,19 +58,23 @@ b, strong{
 .tl{
     text-align:left;
 }
+.listNum{
+    font-size:10px;
+    font-weight:100;
+}
 .pageTitle{
     font-size:20px;
     font-weight:900;
 }
-.conTitle{
-    font-size:16px;
-    font-weight: 900;;
+.titleTxt_h1{
+    font-size:17px;
+    font-weight:600;;
 }
 .conSubTitle{
     font-size:15px;
     font-weight: 900;
 }
-.conTxt{
+.sub_txt{
     font-size:14px;
 }
 .smallTxt{
@@ -109,4 +113,15 @@ b, strong{
 }
 .pull-over{
     overflow:hidden;
+}
+
+/*btn*/
+.btn{
+    display:block;
+    &.btn-s{
+        font-size:15px;
+    }
+    &.btn-m{
+        font-size:20px;
+    }
 }

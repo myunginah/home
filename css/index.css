@@ -27,6 +27,24 @@
 .topArea ul li a {
   width: 100%;
   padding: 10px 0;
-  font-size: 0.7rem;
+  font-size: 15px;
   font-family: "paybook";
+}
+
+.cmList {
+  width: 100%;
+}
+
+.cmList li {
+  width: calc(50% - 10px);
+  margin: 5px 20px 5px 0;
+}
+
+.cmList li img {
+  margin: 10px auto;
+  width: 80%;
+}
+
+.cmList li:nth-child(2n) {
+  margin-right: 0;
 }
