@@ -1,0 +1,123 @@
+/* 
+ * Nanum Square Web Fonts
+ * https://github.com/hiun/NanumSquare
+ * Copyright (c) 2010, NAVER Corporation (http://www.nhncorp.com) 
+ */
+ @font-face {
+    font-family: 'paybook';
+    font-style: normal;
+    font-weight: 100;
+    src: url(/home/font/paybooc/paybooc-Light.woff);
+    src: url(/home/font/paybooc/paybooc-Light.woff) format('woff');
+  }
+  @font-face {
+     font-family: 'paybook';
+     font-style: normal;
+     font-weight: 300;
+     src: url(/home/font/paybooc/paybooc-Medium.woff);
+     src: url(/home/font/paybooc/paybooc-Medium.woff) format('woff');
+   }
+  @font-face {
+    font-family: 'paybook';
+    font-style: normal;
+    font-weight: 600;
+    src: url(/home/font/paybooc/paybooc-Bold.woff);
+    src: url(/home/font/paybooc/paybooc-Bold.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'paybook';
+    font-style: normal;
+    font-weight: 900;
+    src: url(/font/paybooc/paybooc-ExrtaBold.woff);
+    src: url(/font/paybooc/paybooc-ExrtaBold.woff) format('woff');
+  }
+
+     
+@font-face {
+    font-family: 'noto1';
+    font-style: normal;
+    font-weight: 100;
+    src: url(/home/font/notosanskr_v2/eot/NotoSans-Light.eot);
+    src: url(/home/font/notosanskr_v2/eot/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+         url(/home/font/notosanskr_v2/woff2/NotoSans-Light.woff2) format('woff2'),
+         url(/home/font/notosanskr_v2/woff/NNotoSans-Light.woff) format('woff'),
+         url(/home/font/notosanskr_v2/otf/NotoSans-Light.otf) format('opentype');
+    font-display: swap;
+  }
+  @font-face { 
+    font-family: 'noto2';
+    font-style: normal;
+    font-weight: 100;
+    src: url(/home/font/notosanskr_v2/eot/NotoSans-DemiLight.eot);
+    src: url(/home/font/notosanskr_v2/eot/NotoSans-DemiLight.eot?#iefix) format('embedded-opentype'),
+         url(/home/font/notosanskr_v2/woff2/NotoSans-DemiLight.woff2) format('woff2'),
+         url(/home/font/notosanskr_v2/woff/NNotoSans-DemiLight.woff) format('woff'),
+         url(/home/font/notosanskr_v2/otf/NotoSans-DemiLight.otf) format('opentype');
+    font-display: swap;
+  }
+  @font-face {
+     font-family: 'noto3';
+     font-style: normal;
+     font-weight: 100;
+     src: url(/home/font/notosanskr_v2/eot/NotoSans-Regular.eot);
+     src: url(/home/font/notosanskr_v2/eot/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+          url(/home/font/notosanskr_v2/woff2/NotoSans-Regular.woff2) format('woff2'),
+          url(/home/font/notosanskr_v2/woff/NotoSans-Regular.woff) format('woff'),
+          url(/home/font/notosanskr_v2/otf/NotoSans-Regular.otf) format('opentype');
+    font-display: swap;
+   }
+  
+  @font-face {
+     font-family: 'noto4';
+     font-style: normal;
+     font-weight:100;
+     src: url(/home/font/notosanskr_v2/eot/NotoSans-Medium.eot);
+     src: url(/home/font/notosanskr_v2/eot/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+          url(/home/font/notosanskr_v2/woff2/NotoSans-Medium.woff2) format('woff2'),
+          url(/home/font/notosanskr_v2/woff/NotoSans-Medium.woff) format('woff'),
+          url(/home/font/notosanskr_v2/otf/NotoSans-Medium.otf) format('opentype');
+    font-display: swap;
+   }
+  @font-face {
+     font-family: 'noto5';
+     font-style: normal;
+     font-weight: 100;
+     src: url(/home/font/notosanskr_v2/eot/NotoSans-Bold.eot);
+     src: url(/home/font/notosanskr_v2/eot/NotoSans-Bold.eot?#iefix) format('embedded-opentype'), 
+          url(/home/font/notosanskr_v2/woff2/NotoSans-Bold.woff2) format('woff2'),
+          url(/home/font/notosanskr_v2/woff/NotoSans-Bold.woff) format('woff'),
+          url(/home/font/notosanskr_v2/otf/NotoSans-Bold.otf) format('opentype');
+    font-display: swap;
+   }
+  
+  @font-face {
+     font-family: 'noto6';
+     font-style: normal;
+     font-weight: 100;
+     src: url(/home/font/notosanskr_v2/eot/NotoSans-Black.eot);
+     src: url(/home/font/notosanskr_v2/eot/NotoSans-Black.eot?#iefix) format('embedded-opentype'),
+          url(/home/font/notosanskr_v2/woff2/NotoSans-Black.woff2) format('woff2'),
+          url(/home/font/notosanskr_v2/woff/NotoSans-Black.woff) format('woff'),
+          url(/home/font/notosanskr_v2/otf/NotoSans-Black.otf) format('opentype');
+    font-display: swap;
+   }
+  
+  
+  .noto1{
+      font-family: 'noto1';
+  }
+  .noto2{
+      font-family: 'noto2';
+  }
+  .noto3{
+      font-family: 'noto3';
+  }
+  .noto4{
+      font-family: 'noto4';
+  }
+  .noto5{
+      font-family: 'noto5';
+  }
+  .noto6{
+      font-family: 'noto6';
+  }

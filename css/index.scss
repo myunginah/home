@@ -1,0 +1,28 @@
+
+@import 'import.scss';
+
+.container{
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
+    font-family: $cmFont;
+    font-size:$cmFontSize;
+}
+.contantArea{
+    @include cmWidth(1000px);
+    border:1px solid red;
+}
+
+.topArea{
+    @include cmWidth(1000px);
+    ul li{
+        float:left;
+        width:25%;
+        a{
+            width:100%;
+            padding:10px 0;
+            font-size:rem(100);
+            font-family:$cmSubFont;
+        }
+    }
+}

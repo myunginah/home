@@ -1,0 +1,198 @@
+$MainColor : #f6a64c;
+$MainBg : #fff7f8;
+$border : 1px solid #ce7816;
+$CmlinkBg : #d9fff2;
+$cmlinkColor : #147755;
+$maxWidth : 1000px;
+$cmFont : "noto3";
+$cmSubFont : "paybook";
+$selectTxt : "#f56c6c";
+$cmFontSize:15px;
+
+//rem
+@function rem($px, $context:$cmFontSize){
+    @return #{$px/$context}rem;
+}
+
+//text-oveflow
+@mixin textOver($width){
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    white-space:nowrap;
+}
+//link
+@mixin linkBtn($width){
+    display:inline-block;
+    width:$width;
+    @media screen and (max-width:480px){    
+        width:auto;
+    }
+    padding:5px 10px;
+    box-sizing:border-box;
+    transition:all .5s;     
+    text-align:center;
+}
+
+@mixin linkBtnfont($fontsize, $type){
+    @if $type == link{        
+        background:$CmlinkBg;
+        color:$cmlinkColor;
+    } 
+    font-size:$fontsize;
+    @media screen and (max-width:680px){    
+        @if $fontsize > 20px{        
+            font-size:1.2rem;
+        }@else if $fontsize > 15px{
+            font-size:0.8rem;
+        }@else if $fontsize > 14px{
+            font-size:0.6rem;
+        }@else{
+            font-size:0.5rem;
+        }
+    }
+    @media screen and (max-width:480px){    
+        @if $fontsize > 20px{        
+            font-size:1.3rem;
+        }@else if $fontsize > 15px{
+            font-size:1.2rem;
+        }@else if $fontsize > 14px{
+            font-size:1rem;
+        }@else{
+            font-size:0.8rem;
+        }
+    }
+
+}
+//linkhover
+@mixin linkBtnHover($type){
+    @if $type == link{        
+        background:#d9fff2;
+        transition:all .5s;
+    }@else{
+
+    }
+}   
+//commonWidth
+@mixin cmWidth($width) {
+    width:100%;
+    max-width: $maxWidth;
+    margin:0 auto;
+}
+//Btn Selected
+@mixin selectTxt(){
+    color:$selectTxt;
+    font-weight:900;
+    pointer-event:none;
+}
+@mixin tableWrap($width){    
+    display: table;
+    width:$width;
+    margin:30px auto 0;    
+}
+@mixin tabelcell($colum){
+    display:table-cell;
+    vertical-align:middle;
+    @if ($colum == 'half'){
+       &:first-child{
+           width:20%;
+       }
+    }@else{
+        width:100%/$colum;
+    }    
+}
+@mixin contentTitle() {    
+    font-family: $cmFont, $fontNanum;
+    font-weight: 900;
+    text-align: left;
+    line-height:100%;
+    margin:0 0 15px;
+    font-size:25px;
+}
+@mixin animation ($delay, $duration, $name) {
+    animation-delay: $delay;
+    animation-duration: $duration;
+    animation-name: $name;    
+}
+//keyframe
+@mixin keyframe($animation_name){
+    @keyframes #{$animation_name}{
+        @content;
+    }
+}
+//margin
+@mixin marginFn($direction , $num){
+    @if $direction == left{
+        margin-left:$num;
+    }@else if $direction == right{
+        margin-right:$mun;
+    }@else if $direction == top{
+        margin-top:$num;
+    }@else if $direction == bottom{
+        margin-bottom:$num
+    }
+}
+//padding
+@mixin paddingFn($direction , $num){
+    @if $direction == left{
+        padding-left:$num;
+    }@else if $direction == right{
+        padding-right:$mun;
+    }@else if $direction == top{
+        padding-top:$num;
+    }@else if $direction == bottom{
+        padding-bottom:$num
+    }
+}
+//list
+@mixin listStyle($type){
+    position:relative;
+    @if $type == dot{
+        padding-left:10px;
+    }@else if $type == dash{
+        padding-left:8px;
+    }@else if $type == etc{
+        padding-left:14px;
+    }
+
+    &:after{
+        position:absolute;
+        left:0;
+        display:block;
+        @if $type == dot{
+          content:'ㆍ';
+          top:6%;
+        }@else if $type == dash{
+            content:'-';
+            top:10%;
+        }@else if $type == etc{
+            content:'※';
+            top:2%;
+        }   
+    }
+}
+//graph Bar
+@mixin graphBar(){
+    height:0;
+    width:11px;
+    border-radius:11px;
+    display:block;
+    margin:0 auto 5px;
+    background:linear-gradient(0deg, rgba(246,166,87,100) 23%, rgba(255,223,223,1) 100%);
+    transition:all .5s;
+}
+
+//dot
+@mixin pointdot(){
+    position:relative;
+    padding-left:11px;
+
+    &:after{
+        display:block;
+        position:absolute;
+        left:0;
+        top:6%;
+        height:100%;
+        content:'ㆍ';
+        line-height:100%;
+    }
+}

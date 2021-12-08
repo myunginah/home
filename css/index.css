@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "noto3";
+  font-size: 15px;
+}
+
+.contantArea {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.topArea {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.topArea ul li {
+  float: left;
+  width: 25%;
+}
+
+.topArea ul li a {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 0.7rem;
+  font-family: "paybook";
+}

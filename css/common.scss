@@ -1,0 +1,112 @@
+@import 'import.scss';
+/*reset*/
+html{
+    font-size:20px;
+    line-height:1.6;
+}
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+img{
+    vertical-align: middle;
+    border:none;;
+}
+a,
+a:any-link{
+    display: inline-block;
+    text-decoration:none;
+    outline: none;
+    color:#030303;
+}
+a:focus,
+a:hover,
+a:active{
+    text-decoration: none;
+    outline: none;
+}
+ul li{
+    list-style:none;
+}
+h1,h2,h3,h4,h5{
+    font-family: "noto6";
+    font-weight: 100;
+}
+b, strong{
+    font-weight:900;
+}
+
+/*list*/
+.list-dot{
+    @include listStyle('dot');
+}
+.list-dash{
+    @include listStyle('dash');
+}
+.list-etc{
+    @include listStyle('etc');
+}
+
+/*text*/
+.tc{
+    text-align:center;
+}
+.tr{
+    text-align:right;
+}
+.tl{
+    text-align:left;
+}
+.pageTitle{
+    font-size:20px;
+    font-weight:900;
+}
+.conTitle{
+    font-size:16px;
+    font-weight: 900;;
+}
+.conSubTitle{
+    font-size:15px;
+    font-weight: 900;
+}
+.conTxt{
+    font-size:14px;
+}
+.smallTxt{
+    font-size:12px;
+    font-weight: 100;
+}
+/*width*/
+.w_100{
+    width:100%;
+}
+.w_50{
+    width:50%;
+}
+.w_40{
+    width:40%;
+}
+.w_33{
+    width:33.33%;
+}
+.w_30{
+    width:30%;
+}
+.w_25{
+    width:25%;
+}
+.w_20{
+    width:20%;
+}
+
+/*layer*/
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.pull-over{
+    overflow:hidden;
+}
