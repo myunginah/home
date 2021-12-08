@@ -21,6 +21,12 @@ var protfolio = new Vue({
             title:'타이틀3',
             info:'짧은 내용',
             thum:'https://static-sdedu.akamaized.net/img1/_skin/sidae/popkon/images/popup/apply_bn.png'            
+        },
+         {
+            el:4,
+            title:'타이틀4',
+            info:'짧은 내용',
+            thum:'https://static-sdedu.akamaized.net/img1/_skin/sidae/popkon/images/popup/apply_bn.png'            
         }
       ]
     }
