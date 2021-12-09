@@ -12,64 +12,9 @@
 var protfolio = new Vue({
     el: '#myList',
     data: {
-     list: [        
+     list: [               
         {
-            num:1,
-            title:'시대에듀 - 합격시대',
-            info:'합격시대 온라인 모의고사 사이트 개설',
-            date:'2019.07~2019.09(3개월)',
-            skill:['html','jquery','php'],
-            thum:'images/thum/pass_sidae.png',
-            detail:
-                [
-                    '메인, 게시판페이지 , 상품페이지, 결제페이지',
-                    '개발 선작업으로 인한 데이터 가져오기, 그에따른 UI작업'
-                ]
-        },
-        {
-            num:2,
-            title:'시대고시기획 브랜드사이트',
-            info:'시대고시기획 브랜드사이트 개설',
-            date:'2020년 3월',
-            skill:['html','jquery','php'],
-            thum:'images/thum/sidae.png',
-            detail:
-                [
-                    '반응형사이트 작업',
-                    '스크립트를 이용한 animate효과작업',
-                    '게시판 데이터 불러오기 및 ui수정'
-                ]
-        },
-        {
-            num:3,
-            title:'시대에듀-모바일',
-            info:'모바일사이트 구조변경 및 기능추가',
-            date:'2020.09~2020.11(3개월)',
-            skill:['html','jquery','php'],
-            thum:'images/thum/sidae_m.png',
-            detail:
-                [
-                   '구조변경',
-                   '메인, 게시판 , 회원가입 , 로그인 ,상품페이지, 결제페이지 외 다수',
-                   '공통가이드 신규작업',
-                ]            
-        },
-        {
-            num:4,
-            title:'시대에듀 사이트 유지보수 및 기능개선',
-            info:'사내사이트 상시작업',
-            date:'2019.05 ~ 2021.12(2년 8개월)',
-            skill:['html','jquery','php'],
-            thum:'images/thum/no_images.png',
-            detail:
-                [
-                   '신규상품관련 사이트 개설',
-                   '기존 게시판 UI공통화 및 스크립트 수정',
-                   '통합검색, 상품상세 등 기존페이지 구조 변경 및 기능 추가'
-                ]            
-        },
-        {
-            num:5,
+            num:7,
             title:'동영상플레이어 교체(po/모바일)',
             info:'플레이어 교체에 따른 UI및 스크립트 변경',
             date:'2021.06 ~ 2021.06(1개월)',
@@ -80,6 +25,18 @@ var protfolio = new Vue({
                    '신규 스크립트 작업 및 플레이어데이터 추가',
                    '플레이어 교체에 따른 신규UI작업',
                    '동영상스크립트 연동작업'
+                ]            
+        },
+        {
+            num:6,
+            title:'시대에듀모바일-마이페이지',
+            info:'마이페이지 구조변경',
+            date:'2021.12',
+            skill:['html','jquery','php'],
+            thum:'images/thum/sidae_mypage.png',
+            detail:
+                [
+                   '구조변경 및 graph기능 추가',
                 ]            
         },
         {
@@ -97,17 +54,62 @@ var protfolio = new Vue({
                 ]            
         },
         {
-            num:6,
-            title:'시대에듀모바일-마이페이지',
-            info:'마이페이지 구조변경',
-            date:'2021.12',
+            num:4,
+            title:'시대에듀 사이트 유지보수 및 기능개선',
+            info:'사내사이트 상시작업',
+            date:'2019.05 ~ 2021.12(2년 8개월)',
             skill:['html','jquery','php'],
-            thum:'images/thum/sidae_mypage.png',
+            thum:'images/thum/no_images.png',
             detail:
                 [
-                   '구조변경 및 graph기능 추가',
+                   '신규상품관련 사이트 개설',
+                   '기존 게시판 UI공통화 및 스크립트 수정',
+                   '통합검색, 상품상세 등 기존페이지 구조 변경 및 기능 추가'
                 ]            
-        }
+        },
+        {
+            num:3,
+            title:'시대에듀-모바일',
+            info:'모바일사이트 구조변경 및 기능추가',
+            date:'2020.09~2020.11(3개월)',
+            skill:['html','jquery','php'],
+            thum:'images/thum/sidae_m.png',
+            detail:
+                [
+                   '구조변경',
+                   '메인, 게시판 , 회원가입 , 로그인 ,상품페이지, 결제페이지 외 다수',
+                   '공통가이드 신규작업',
+                ]            
+        },
+        {
+            num:2,
+            title:'시대고시기획 브랜드사이트',
+            info:'시대고시기획 브랜드사이트 개설',
+            date:'2020년 3월',
+            skill:['html','jquery','php'],
+            thum:'images/thum/sidae.png',
+            detail:
+                [
+                    '반응형사이트 작업',
+                    '스크립트를 이용한 animate효과작업',
+                    '게시판 데이터 불러오기 및 ui수정'
+                ]
+        },
+        {
+            num:1,
+            title:'시대에듀 - 합격시대',
+            info:'합격시대 온라인 모의고사 사이트 개설',
+            date:'2019.07~2019.09(3개월)',
+            skill:['html','jquery','php'],
+            thum:'images/thum/pass_sidae.png',
+            detail:
+                [
+                    '메인, 게시판페이지 , 상품페이지, 결제페이지',
+                    '개발 선작업으로 인한 데이터 가져오기, 그에따른 UI작업'
+                ]
+        },    
+        
+        
 
       ]
     },

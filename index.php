@@ -3,7 +3,7 @@
 <div class="container" id="mainContainer">
     <div class="contantArea">
         <ul class="cmList pull-over" id="myList">
-            <li v-for="post in list | reverse" :key="post.id" class="fl">
+            <li v-for="post in list" :key="post.id" class="fl">
              <b class="listNum">{{ post.el }}</b>
              <h1 class="titleTxt_h1">{{ post.title }}</h1>
              <p class="sub_txt">{{ post.info }}</p>
