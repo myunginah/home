@@ -19,7 +19,7 @@ var protfolio = new Vue({
             info:'플레이어 교체에 따른 UI및 스크립트 변경',
             date:'2021.06 ~ 2021.06(1개월)',
             skill:['html','jquery','php'],
-            thum:'images/thum/player.png',
+            thum:'images/thum/player_s.png',
             detail:
                 [
                    '신규 스크립트 작업 및 플레이어데이터 추가',
@@ -33,7 +33,7 @@ var protfolio = new Vue({
             info:'마이페이지 구조변경',
             date:'2021.12',
             skill:['html','jquery','php'],
-            thum:'images/thum/sidae_mypage.png',
+            thum:'images/thum/sidae_mypage_mobile_s.png',
             detail:
                 [
                    '구조변경 및 graph기능 추가',
@@ -45,7 +45,7 @@ var protfolio = new Vue({
             info:'마이페이지 구조변경',
             date:'2021.10 ~ 2021.11(1개월)',
             skill:['html','jquery','php'],
-            thum:'images/thum/sidae_mypage.png',
+            thum:'images/thum/sidae_mypage_s.png',
             detail:
                 [
                    '구조변경 및 기능추가',
@@ -59,7 +59,7 @@ var protfolio = new Vue({
             info:'사내사이트 상시작업',
             date:'2019.05 ~ 2021.12(2년 8개월)',
             skill:['html','jquery','php'],
-            thum:'images/thum/no_images.png',
+            thum:'images/thum/no_images_s.png',
             detail:
                 [
                    '신규상품관련 사이트 개설',
@@ -73,7 +73,7 @@ var protfolio = new Vue({
             info:'모바일사이트 구조변경 및 기능추가',
             date:'2020.09~2020.11(3개월)',
             skill:['html','jquery','php'],
-            thum:'images/thum/sidae_m.png',
+            thum:'images/thum/sidae_m_s.png',
             detail:
                 [
                    '구조변경',
@@ -87,7 +87,7 @@ var protfolio = new Vue({
             info:'시대고시기획 브랜드사이트 개설',
             date:'2020년 3월',
             skill:['html','jquery','php'],
-            thum:'images/thum/sidae.png',
+            thum:'images/thum/sidae_s.png',
             detail:
                 [
                     '반응형사이트 작업',
@@ -101,7 +101,7 @@ var protfolio = new Vue({
             info:'합격시대 온라인 모의고사 사이트 개설',
             date:'2019.07~2019.09(3개월)',
             skill:['html','jquery','php'],
-            thum:'images/thum/pass_sidae.png',
+            thum:'images/thum/pass_sidae_s.png',
             detail:
                 [
                     '메인, 게시판페이지 , 상품페이지, 결제페이지',

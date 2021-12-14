@@ -35,11 +35,6 @@ ul li {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: "noto6";
-  font-weight: 100;
-}
-
 b, strong {
   font-weight: 900;
 }
@@ -104,12 +99,13 @@ b, strong {
 
 .pageTitle {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .titleTxt_h1 {
   font-size: 17px;
   font-weight: 600;
+  letter-spacing: -0.7px;
 }
 
 .conSubTitle {
@@ -118,7 +114,8 @@ b, strong {
 }
 
 .sub_txt {
-  font-size: 14px;
+  font-size: 15px;
+  color: #545454;
 }
 
 .smallTxt {
@@ -178,5 +175,13 @@ b, strong {
 }
 
 .btn.btn-m {
-  font-size: 20px;
+  font-size: 17px;
+  padding: 3px 10px;
+  line-height: 100%;
+}
+
+.viewBtn {
+  display: block;
+  background: #ffefa6;
+  color: #000;
 }

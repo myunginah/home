@@ -1,8 +1,13 @@
+.mainContainer {
+  width: 100%;
+  padding: 30px 0;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  font-family: "noto3";
+  font-family: "paybook";
   font-size: 15px;
 }
 
@@ -10,7 +15,11 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  border: 1px solid red;
+  padding-top: 50px;
+}
+
+.header {
+  border-bottom: 2px solid #dddddd;
 }
 
 .topArea {
@@ -21,7 +30,11 @@
 
 .topArea ul li {
   float: left;
-  width: 25%;
+  width: 50%;
+}
+
+.topArea ul li img {
+  width: 100%;
 }
 
 .topArea ul li a {
@@ -29,6 +42,7 @@
   padding: 10px 0;
   font-size: 15px;
   font-family: "paybook";
+  text-align: center;
 }
 
 .cmList {
@@ -37,14 +51,21 @@
 
 .cmList li {
   width: calc(50% - 10px);
-  margin: 5px 20px 5px 0;
-}
-
-.cmList li img {
-  margin: 10px auto;
-  width: 80%;
+  margin: 5px 20px 25px 0;
+  padding: 0 4%;
+  box-sizing: border-box;
 }
 
 .cmList li:nth-child(2n) {
   margin-right: 0;
+}
+
+.cmList li .imgArea {
+  width: 100%;
+  height: 330px;
+  overflow: hidden;
+  padding: 0 0 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  text-align: center;
 }
