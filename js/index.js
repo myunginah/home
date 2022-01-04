@@ -15,8 +15,8 @@ var protfolio = new Vue({
      list: [               
         {
             num:7,
-            title:'동영상플레이어 교체(po/모바일)',
-            info:'플레이어 교체에 따른 UI및 스크립트 변경',
+            title:'시대에듀',
+            info:'신규플레이어 적용 및 수강생 UI작업',
             date:'2021.06 ~ 2021.06(1개월)',
             skill:['html','jquery','php'],
             thum:'images/thum/player_s.png',
@@ -24,13 +24,14 @@ var protfolio = new Vue({
                 [
                    '신규 스크립트 작업 및 플레이어데이터 추가',
                    '플레이어 교체에 따른 신규UI작업',
-                   '동영상스크립트 연동작업'
+                   '동영상스크립트 연동작업',
+                   '수강생 UI작업 및 기능추가'
                 ]            
         },
         {
             num:6,
-            title:'시대에듀모바일-마이페이지',
-            info:'마이페이지 구조변경',
+            title:'시대에듀모바일',
+            info:'메인,마이페이지 UI수정',
             date:'2021.12',
             skill:['html','jquery','php'],
             thum:'images/thum/sidae_mypage_mobile_s.png',
@@ -41,7 +42,7 @@ var protfolio = new Vue({
         },
         {
             num:5,
-            title:'시대에듀-마이페이지',
+            title:'시대에듀',
             info:'마이페이지 구조변경',
             date:'2021.10 ~ 2021.11(1개월)',
             skill:['html','jquery','php'],
@@ -55,8 +56,8 @@ var protfolio = new Vue({
         },
         {
             num:4,
-            title:'시대에듀 사이트 유지보수 및 기능개선',
-            info:'사내사이트 상시작업',
+            title:'시대에듀',
+            info:'사이트 유지보수 및 기능개선',
             date:'2019.05 ~ 2021.12(2년 8개월)',
             skill:['html','jquery','php'],
             thum:'images/thum/no_images_s.png',
@@ -69,7 +70,7 @@ var protfolio = new Vue({
         },
         {
             num:3,
-            title:'시대에듀-모바일',
+            title:'시대에듀모바일',
             info:'모바일사이트 구조변경 및 기능추가',
             date:'2020.09~2020.11(3개월)',
             skill:['html','jquery','php'],
@@ -83,8 +84,8 @@ var protfolio = new Vue({
         },
         {
             num:2,
-            title:'시대고시기획 브랜드사이트',
-            info:'시대고시기획 브랜드사이트 개설',
+            title:'시대고시기획',
+            info:'브랜드사이트 개설',
             date:'2020년 3월',
             skill:['html','jquery','php'],
             thum:'images/thum/sidae_s.png',
@@ -97,7 +98,7 @@ var protfolio = new Vue({
         },
         {
             num:1,
-            title:'시대에듀 - 합격시대',
+            title:'합격시대',
             info:'합격시대 온라인 모의고사 사이트 개설',
             date:'2019.07~2019.09(3개월)',
             skill:['html','jquery','php'],
@@ -112,12 +113,7 @@ var protfolio = new Vue({
         
 
       ]
-    },
-    filters: {
-        reverse(list) {
-          return list.slice().reverse()
-        }
-      }
+    }
 
   })
   /*//protfolio*/

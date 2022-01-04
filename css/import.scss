@@ -88,6 +88,10 @@ $cmFontSize:15px;
     display: table;
     width:$width;
     margin:30px auto 0;    
+    > *{
+        display: table-cell;
+        vertical-align: middle;
+    }
 }
 @mixin tabelcell($colum){
     display:table-cell;

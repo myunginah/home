@@ -105,7 +105,7 @@ b, strong {
 .titleTxt_h1 {
   font-size: 17px;
   font-weight: 600;
-  letter-spacing: -0.7px;
+  word-break: keep-all;
 }
 
 .conSubTitle {
@@ -116,6 +116,7 @@ b, strong {
 .sub_txt {
   font-size: 15px;
   color: #545454;
+  word-break: keep-all;
 }
 
 .smallTxt {
@@ -165,9 +166,22 @@ b, strong {
   overflow: hidden;
 }
 
+.div-table {
+  display: table;
+  width: 100%;
+  margin: 30px auto 0;
+}
+
+.div-table > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 /*btn*/
 .btn {
   display: block;
+  box-sizing: border-box;
+  line-height: 100%;
 }
 
 .btn.btn-s {
@@ -175,13 +189,18 @@ b, strong {
 }
 
 .btn.btn-m {
-  font-size: 17px;
-  padding: 3px 10px;
-  line-height: 100%;
+  font-size: 16px;
+  padding: 5px 10px;
 }
 
 .viewBtn {
-  display: block;
-  background: #ffefa6;
-  color: #000;
+  border: 1px solid #d1eeff;
+  background: #d1eeff;
+  color: #295ca8;
+}
+
+.viewBtn:hover {
+  border: 1px solid #295ca8;
+  background: #fff;
+  color: #295ca8;
 }
