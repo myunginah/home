@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>꺄항</title>
+        <title>Hello_ina</title>
         
         <!--style-->
         <link rel="stylesheet" href="css/font.css" type="text/css"/>
@@ -14,23 +14,26 @@
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
     <body>
+
     <?php
-        $query_string=getenv("QUERY_STRING");  //GET값 가져오기
-        $pagename = explode("&" , $query_string);  //'&'를 기준으로 배열생성
-        $array_cnt = count($pagename); //배열 카운트
-        if($pagename == 'about'){
-            $play_type = 'about';
+       $basename=basename($_SERVER["PHP_SELF"]);
+       $pagename = explode("." , $basename);
+       $nowpage = $pagename[0];//현재파일명 (확장자x) 
+       $pagetype  = '';
+        if($nowpage == 'about'){
+            $pagetype = 'about';
         }else{
-            $play_type = 'work';
+            $pagetype = 'work';
         }	
     ?>
+
     <section class="mainContainer">
         <div class="header">
             <div class="topArea">
                 <!-- <div class="logoArea"><a href="">home</a></div> -->
                 <ul class="cmMainMenu pull-over">
-                    <li><a href="" class="<?php if($play_type == 'about'){echo 'selected';}?>">about</a></li>
-                    <li><a href="" class="<?php if($play_type == 'work'){echo 'selected';}?>">work</a></li>
+                    <li><a href="/home/about.php" class="<?php if($pagetype == 'about'){echo 'selected';}?>">about</a></li>
+                    <li><a href="/home/index.php" class="<?php if($pagetype == 'work'){echo 'selected';}?>">work</a></li>
                 </ul>
             </div>
         </div>

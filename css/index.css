@@ -19,7 +19,7 @@
 }
 
 .header {
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .topArea {
@@ -38,11 +38,36 @@
 }
 
 .topArea ul li a {
+  position: relative;
   width: 100%;
   padding: 10px 0;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "paybook";
+  font-weight: 600;
   text-align: center;
+}
+
+.topArea ul li a.selected {
+  color: #1690d7;
+  font-weight: 900;
+}
+
+.topArea ul li a:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 4px;
+  content: '';
+  left: 0;
+  bottom: 0;
+  background: #badcf0;
+  transition: all .5s;
+}
+
+.topArea ul li a.selected:after, .topArea ul li a:hover:after {
+  width: 100%;
+  font-weight: 900;
+  transition: all .5s;
 }
 
 .cmList {
