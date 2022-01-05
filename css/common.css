@@ -153,6 +153,10 @@ b, strong {
   width: 20%;
 }
 
+.w_16 {
+  width: 16.66%;
+}
+
 /*layer*/
 .fl {
   float: left;

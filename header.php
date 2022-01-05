@@ -11,7 +11,10 @@
         <link rel="stylesheet" href="css/index.css" type="text/css"/>
 
         <!--script-->
+        <script src="http://code.jquery.com/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="js/index.js"></script>
+        
     </head>
     <body>
 
