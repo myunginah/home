@@ -1,4 +1,4 @@
-<script src="js/array.js"></script>
+<!-- <script src="js/array.js"></script> -->
 </div>
 </body>
 </html>
